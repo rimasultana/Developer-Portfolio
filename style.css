@@ -39,3 +39,42 @@ nav ul{
     align-items: center;
    
 }
+header{
+    background-image: url('images/developer.png') , url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:top left,bottom right;
+}
+
+/* =========Manu=============== */
+
+.banner{
+   
+    display: flex;
+    justify-content:space-between ;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-subtitle{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+   
+}
+.banner-title{
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.banner-description{
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+.hary{
+    width: 584px;
+}

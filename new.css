@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Merriweather", serif;
@@ -53,7 +54,7 @@ body {
 }
 /* =-=-=-=-=-End Banner-Section=-=-=-=-=-=- */
 
-/* =++==++==++==++==++offers-section=++==++==++==++==++ */
+/* =++==++==++==++==++Second-section=++==++==++==++==++ */
 .second-section-container {
   width: 800px;
   height: 805px;
@@ -99,8 +100,154 @@ body {
   width: 802.9px;
   height: 500px;
 }
-.image-container img{
-    width: 100%;
-    height: 100%;
+.image-container img {
+  width: 100%;
+  height: 100%;
 }
-/* =-=-=-=-= s */
+/* =-=-=-=-= second-section-container End Here=-==-=-=-=-=-=- */
+
+/* <!-- ====+++++++======+++++Midnight Party Section Start here====+++====++++++ --> */
+.party-section {
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  background-image: linear-gradient(0deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url("asserts/Vectorrr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+.leftside-content {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-left: 126px;
+}
+.leftside-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.leftside-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.btn-primaray {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+.rightside-content {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightside-content img {
+  width: 349.16px;
+  height: 464.65px;
+}
+/* <!-- ====+++++++======+++++Midnight Party Section Start here====+++====++++++ --> */
+.holyday-section-container {
+  width: 1320px;
+  height: 986.07px;
+  border: 5px solid red;
+  margin: 0 auto;
+  margin-top: 130px;
+  position: relative;
+}
+
+.holyday-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
+}
+
+.holyday-text-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.holyday-text-container h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.holyday-text-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.holyday {
+  color: rgb(255, 0, 0);
+}
+
+/* <!-- ====+++++++======+++++Holy- Section Start here====+++====++++++ --> */
+
+/* holiday-color */
+.holyday-color {
+  width: 1320px;
+  height: 229px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  top: 77%;
+}
+.gift-box {
+  width: 674.82px;
+  height: 577.96px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.gril-container {
+  width: 674.82px;
+  height: 577.96px;
+  position: relative;
+  left: 29%;
+  top: 11%;
+}
+.discount{
+    position: absolute;
+    bottom: 30%;
+    left: 55%;
+    z-index: 1;
+}

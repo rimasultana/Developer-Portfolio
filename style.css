@@ -182,3 +182,28 @@ hr{
 .reaumi-cv{
   margin-top: 30px;
 }
+
+/* footer */
+
+footer{
+  margin-top: 130px;
+  padding: 130px 230px;
+  background-color: #FFF8F3;
+  display: flex;
+  gap: 100px;
+}
+.footer-column{
+  width: 50%;
+}
+footer input[type="text"], input[type="email"], textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  color: #474747;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+  font-size: 16px;
+}

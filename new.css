@@ -166,7 +166,52 @@ body {
   width: 349.16px;
   height: 464.65px;
 }
-/* <!-- ====+++++++======+++++Midnight Party Section Start here====+++====++++++ --> */
+/* <!-- ====+++++++======+++++Midnight Party Section End here====+++====++++++ --> */
+
+/* =-=-=-=-=-=-=-=New-Park-Section=-=-=-=-=-=-=-=-=-=- */
+
+.new-box-container {
+  width: 1320px;
+  height: 482px;
+  border-radius: 16px;
+  margin: 0 auto;
+  margin-top: 130px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+.new-box-content {
+  width: 549px;
+  height: 168px;
+  /* margin: auto; */
+  margin: 100px 385px 335px 385px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  border: none;
+  padding: 16px 32px 16px 32px;
+  margin-top: 48px;
+}
+/* =-=-=-=-=-=-=-=New-Park-Section=-=-=-=-=-=-=-=-=-=- */
+
 .holyday-section-container {
   width: 1320px;
   height: 986.07px;
@@ -305,6 +350,28 @@ body {
 .item img {
   width: 100%;
   height: 100%;
-}/* =-=-=-=-=portfolio-section=-=-=-=-=-=-=-=-=- */
+} /* =-=-=-=-=portfolio-section=-=-=-=-=-=-=-=-=- */
 
+/* footer-section */
 
+.footer-container {
+  width: 1320px;
+  height: 609px;
+  background: rgb(7, 2, 17);
+  margin: 0 auto;
+  margin-top: 130px;
+}
+.footer-first-section {
+  display: flex;
+  justify-content: space-around;
+  height: 90%;
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+.left-contact {
+  color: #fff;
+}
+.contact {
+  display: flex;
+  color: #fff;
+}

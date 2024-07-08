@@ -217,17 +217,16 @@ body {
 .best-offer-container {
   width: 1320px;
   height: 463px;
-  border: 2px solid red;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 .best-offer-container .content {
-  border: 2px solid green;
   width: 30%;
 }
-.best-offer-container .content h5 {
+.best-offer-container .content h4 {
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 24px;
@@ -258,8 +257,8 @@ body {
   text-align: left;
 }
 .best-offer-container .img {
-  border: 2px solid yellow;
   width: 30%;
+ margin: auto;
 }
 .best-offer-container .img img {
   width: 100%;
@@ -269,8 +268,8 @@ body {
   padding: 20px;
 }
 .best-offer-container .new-year-text {
-  border: 2px solid blue;
   width: 30%;
+  margin: auto;
 }
 .new-year-text h1 {
   color: rgb(255, 0, 0);

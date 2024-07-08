@@ -170,7 +170,6 @@ body {
 .holyday-section-container {
   width: 1320px;
   height: 986.07px;
-  border: 5px solid red;
   margin: 0 auto;
   margin-top: 130px;
   position: relative;
@@ -215,6 +214,7 @@ body {
   line-height: 32px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 65px;
 }
 .holyday {
   color: rgb(255, 0, 0);
@@ -243,11 +243,68 @@ body {
   height: 577.96px;
   position: relative;
   left: 29%;
-  top: 11%;
+  top: 12%;
 }
-.discount{
-    position: absolute;
-    bottom: 30%;
-    left: 55%;
-    z-index: 1;
+.discount {
+  position: absolute;
+  bottom: 30%;
+  left: 55%;
+  z-index: 1;
 }
+/* <!-- ==-==-==-==-== Holiday-section==-==-==-==-==-==     --> */
+
+/* =-=-=-=-=portfolio-section=-=-=-=-=-=-=-=-=- */
+.portfolio-section {
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.portfolio-text-content h5 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.portfolio-text-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 22px;
+  margin-bottom: 48px;
+}
+.portfolio-text-content h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+/* =-=--=-=-=-=- img=-=-=-=-=-=-=-=- */
+
+.portfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.item {
+  width: 424px;
+  height: 450px;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+}/* =-=-=-=-=portfolio-section=-=-=-=-=-=-=-=-=- */
+
+

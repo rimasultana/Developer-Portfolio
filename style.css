@@ -214,8 +214,16 @@ footer input[type="text"], input[type="email"], textarea {
   display: none;
 }
 @media screen and (max-width: 576px) {
- .skill-container{
+ .skill-container, .resumi-container, footer, .about-items{
   flex-direction: column;
+ }}
+ footer, .about{
+  padding: 20px;
  }
+ .footer-column{
+  width: 100px;
+ }
+ footer input[type="text"], input[type="email"], textarea {
+width: calc(100% - 40px);
   
 }

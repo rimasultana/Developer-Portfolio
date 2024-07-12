@@ -214,9 +214,30 @@ footer input[type="text"], input[type="email"], textarea {
   display: none;
 }
 @media screen and (max-width: 576px) {
- .skill-container, .resumi-container, footer, .about-items{
+ .skill-container, 
+ .resumi-container,
+  footer,
+  .banner,
+  .about-items,
+  nav, nav > ul
+{
   flex-direction: column;
  }}
+ nav > ul{
+  gap: 20px
+ }
+ .banner{
+  margin: 20px;
+ }
+ .hary{
+  width: 100%;
+ }
+ header{
+  background-image: none;
+ }
+ .btn-primaray{
+  margin-bottom: 20px;
+ }
  footer, .about{
   padding: 20px;
  }
@@ -225,5 +246,12 @@ footer input[type="text"], input[type="email"], textarea {
  }
  footer input[type="text"], input[type="email"], textarea {
 width: calc(100% - 40px);
-  
+ }
+
+
+/* =-=-=-=-Modem responsive quray=-=-=-=-=-- */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+.banner{
+  flex-direction: column;
+} 
 }
